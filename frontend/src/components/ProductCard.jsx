@@ -87,7 +87,7 @@ const ProductCard = ({product}) => {
         >
             <Image src={product.image} alt={product.name} h={48} w="full" objectFit="cover"/>
             <Box p={4}>
-                <Heading as="h3" size="md" mb={2}>
+                <Heading as="h3" size="md" mb={2} color={textColor}>
                     {product.name}
                 </Heading>
                 <Text fontWeight={"bold"} fontSize={"xl"} color={textColor} mb={4}>
