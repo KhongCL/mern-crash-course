@@ -12,10 +12,6 @@ const PORT = process.env.PORT || 5000;
 
 const __dirname = path.resolve();
 
-// In index.js
-console.log(path.join(__dirname, "/frontend/dist"));
-console.log(path.resolve(__dirname, "frontend", "dist", "index.html"));
-
 app.use(express.json()); //allow accept JSON data in req body
 
 app.use("/api/products", productRoutes);
