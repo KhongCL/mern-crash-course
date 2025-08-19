@@ -1,5 +1,7 @@
 ### mern-crash-course
 
+<img width="1920" height="1151" alt="mern-crash-course" src="https://github.com/user-attachments/assets/90992a39-7eb7-494a-a6a5-34140f942781" />
+
 This is a full-stack MERN (MongoDB, Express, React, Node.js) application for a simple product store.
 
 ---
