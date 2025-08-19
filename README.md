@@ -29,7 +29,7 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application for a s
     Create a `.env` file in the root directory and add your MongoDB connection string and a port number.
 
     ```ini
-    MONGO_URI=your_mongo_uri
+    MONGO_URL=your_mongo_url
     PORT=5000
     ```
 
